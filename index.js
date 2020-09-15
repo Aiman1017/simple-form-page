@@ -9,7 +9,7 @@ function sentform(){
     formtable();
 }
 
-function formtable(e){
+function formtable(){
     let table = document.getElementById('listTable');
     let tablerow = document.createElement('tr')
     let data = document.createElement('td')
